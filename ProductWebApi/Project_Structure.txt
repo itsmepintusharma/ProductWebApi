@@ -1,0 +1,44 @@
+﻿SecureCrudApi
+
+├── SecureCrudApi.API
+│
+├── Controllers
+│   ├── AuthController.cs
+│   └── ProductsController.cs
+│
+├── Data
+│   ├── AppDbContext.cs
+│   ├── SeedRoles.cs
+│   └── SeedAdmin.cs
+│
+├── Entities
+│   ├── Product.cs
+│   ├── ApplicationUser.cs
+│   └── RefreshToken.cs
+│
+├── DTOs
+│   ├── LoginRequest.cs
+│   ├── RegisterRequest.cs
+│   ├── ProductCreateDto.cs
+│   └── ProductUpdateDto.cs
+│
+├── Repository
+│   ├── IProductRepository.cs
+│   └── ProductRepository.cs
+│
+├── Services
+│   ├── IJwtService.cs
+│   ├── JwtService.cs
+│   ├── IAuthService.cs
+│   ├── AuthService.cs
+│   ├── IProductService.cs
+│   └── ProductService.cs
+│
+├── Middleware
+│   └── ExceptionMiddleware.cs
+│
+├── Program.cs
+│
+└── appsettings.json
+
+SecureCrudApi.Tests
